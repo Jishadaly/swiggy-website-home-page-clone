@@ -1,0 +1,469 @@
+body{
+
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.p{
+  font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+}
+
+
+.header{
+  display: flex;
+  height: max-content;
+  width: 100%;
+  background-size: cover;
+}
+
+.header_right_section{
+
+width: 45%;
+height: 550px;
+background-image: url(Images/Lunch1_vlksgq.webp);
+ background-position: 0%;
+ background-size: cover;
+}
+
+
+.header_left_section{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  height: 550px;
+  justify-content: space-between;
+  
+
+}
+
+.nav_section{
+
+  position: relative;
+  display: flex;
+  width: 600px;
+  min-height: 20px;
+  justify-items: center;
+  /* padding: 60px 0px 0px 167px; */
+   margin: 99px 0px 0px 170px;
+
+}
+
+.nav_section img{
+ 
+  width: 200px;
+  height: fit-content;
+  
+}
+.nav_btns{
+  margin-top: 5px;
+  /* margin-left: 140px; */
+  position: absolute;
+  right: 5px;
+
+}
+
+.login_btn,.sign_up_btn{
+
+ 
+    font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    height: 40px;
+    border: none;
+    background-color: white;
+    width: 100px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login_btn{
+  background: transparent;
+  font-weight: 600;
+  color: black; 
+  
+}
+
+.login_btn:hover{
+  color: #ffb300d8;
+}
+
+.header_title{
+
+  margin-left: 170px;
+  margin-bottom: 10px;
+  font-size :40px;
+  font-weight : 600;
+  height: 48px;
+  color: rgb(40, 44, 63);
+  padding-top: 70px;
+  font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+}
+
+.header_sub_title{
+  margin: 0px 0px 35px 0px;
+  font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+  font-size :24px;
+  font-weight: 300;
+  height :40px;
+  color: rgb(104, 107, 120);
+  margin-left: 170px;
+  
+ 
+}
+
+.header_input_button{
+    margin-left: 170px;
+  width: 70%;
+  /* background-color: lightcoral; */
+}
+
+.input_field_header{
+
+  border: solid 1.5px #fc8019;
+  width: 71%;
+  font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+  height: 57px;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 18px;
+
+}
+
+.input_button{
+
+   font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+   font-size: 14px;
+   font-weight: 800;
+   background: transparent;
+   border: none;
+   height: 61px;
+   width: 24%;
+   background-color: #fc8019;
+   color: #fff;
+   cursor: pointer;
+   
+}
+
+.populer_text{
+
+  margin: 34px 0px 0px 170px;
+  color: #808080;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+}
+.ul_cities_name{
+
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+  margin-left: 170px;
+}
+
+
+.cities_li_singles{
+  margin-bottom: 20px;
+  color: rgb(104, 107, 120);
+  font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+  margin-right: 10px;
+  font-weight:600 ;
+}
+
+.ul_cities_name_div{
+
+  display: contents;
+  width: 70%;
+}
+
+.specialities_section{
+  height: 400px;
+  width: 100%;
+  background-color:#2b1e16 ;
+  
+}
+
+.contents_flex{
+
+  height: 400px;
+  width:80%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  /* padding-top: 2%; */
+ 
+}
+
+.contents_elements{
+  
+  display: flex;
+  width: 300px;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+
+}
+.contents_elements img{
+
+  height: 185px;
+  width: 110px;
+}
+ 
+  
+
+.contents_title{
+  font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+  margin: 35px 0px 5px 0px ;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.contents_sub_title{
+
+  font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  width: 254px;
+  color: #e0cbc1;
+  font-weight: 200;
+  
+}
+
+.mobile_preview{
+
+  width:100%;
+  height: 600px;
+ background-color: white;
+
+}
+.text_side{
+  
+  display: inline-block;
+  position: relative;
+  width: 35%;
+  height: 500px;
+  
+}
+
+.review_title{
+position: absolute;
+left: 130px;
+top: 108px;
+font-size: 40px;
+color:rgb(40, 44, 63);
+font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+width: 300px  ;
+height: 80px;
+letter-spacing: 0.45px;
+font-weight: 600;
+line-height: 40px;
+
+}
+
+.review_sub_text{
+  position: absolute;
+  left: 130px;
+  top: 210px;
+  font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+  color: rgb(126, 128, 140);
+  font-size: 20px;
+  width:400px;
+  line-height: 24px;
+  height: 70px;
+}
+.platforms_img_andr,.platforms_img_ios{
+  position: absolute;
+  left: 130px;
+  top:310px ;
+  width: 176px;
+  height: 55px;
+  cursor: pointer;
+}
+
+.platforms_img_ios{
+  left: 320px;
+
+}
+
+.review_img_side{
+  
+
+  display: inline-block;
+  width: 55%;
+  height: 100%;
+
+}
+
+.review_right_img_ios,.review_right_img_andr{
+   
+    position: absolute;
+    right: 492px;
+    width: 364px;
+    height: 485px;
+}
+.review_right_img_ios{
+  
+    position: absolute;
+    right: 150px;
+    top: 1065px;
+}
+
+.about_section{
+
+  width: 100%;
+  height: 600px;
+   background-color: black ;
+  
+ 
+}
+
+.company_about{
+
+  padding :40px 0px 0px 113px;
+  display: flex;
+ 
+   
+}
+
+#company_about{
+
+ 
+font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+list-style-type: none;
+color: #fff;
+font-size: 17px;
+line-height: 40px;
+margin-right: 90px;
+cursor: pointer;
+  
+}
+
+.company_title{
+
+  font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+  font-weight:600;
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: rgb(128, 128, 128);
+  
+
+}
+.about_section_logos{
+
+
+  display:flex;
+  flex-direction: column;
+  padding-top: 40px;
+
+
+}
+#about_section_logos{
+    
+    
+    padding-bottom: 30px;
+    width: 203px;
+    height: 65px;
+    cursor: pointer;
+}
+
+.line_between_div{
+  width: 80%;
+  height: 1px;
+  background-color: #545353 ;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+.footer_captions{
+
+  position: relative;
+  margin-top: 30px;
+  height: 73px;
+  background-color: rgb(0, 0, 0);
+  margin-left: 150px;
+ 
+}
+
+.line_1{
+
+  
+  font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+  color: gray;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.line_2{
+  
+  margin-top: 0;
+  font-weight: 500;
+  display: inline;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+
+}
+
+
+.line_3{
+  margin-top: 0;
+  font-weight: 500;
+  right: 152px;
+  display: inline-block;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+
+}
+
+.main_footer{
+  
+  justify-content: space-evenly;
+  display: flex;
+  width: 80%;
+  height: 50px;
+  margin: 31px 0px 15px 150px;
+  justify-self: center;
+  
+  
+}
+
+/* .swiggy_png{
+ 
+} */
+
+
+#swiggy_png {
+   height: 100%;
+   width: 100%;
+}
+
+.copywrite{
+  flex: 1;
+}
+
+.social_meadia_icons{
+ 
+  display: flex;
+  align-items: center;  
+}
+
+#social_meadia_icons{
+
+  width: 50%;
+  height: 50%;
+  padding-right: 35px;
+  cursor: pointer;
+
+}
+
+#copyerite{
+  color: #e0cbc1;
+}
